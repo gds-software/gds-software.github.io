@@ -172,7 +172,7 @@
 
       function checkLogin() {
         if (localStorage.getItem("loggedIn") !== "true") {
-          window.location.href = "http://172.16.20.82/Login.html";
+          window.location.href = "Login.html";
         }
       }
 
@@ -264,11 +264,11 @@
           showModal(
             "Are you sure you want to log out without saving?",
             function () {
-              window.location.href = "http://172.16.20.82/Login.html";
+              window.location.href = "Login.html";
             }
           );
         } else {
-          window.location.href = "http://172.16.20.82/Login.html";
+          window.location.href = "Login.html";
         }
       }
 
